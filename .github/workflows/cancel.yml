@@ -1,0 +1,20 @@
+name: await
+on:
+  pull_request_target:
+    types:
+      - edited
+      - synchronize
+
+jobs:
+  await:
+  request: request awaited job update (1 minutes)
+    
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: styfle/await-workflow-action@0.9.1
+        with:
+          workflow_id: 444921, 444987, 57419851
+          access_token: ${{ github.token }}
+        
+         
