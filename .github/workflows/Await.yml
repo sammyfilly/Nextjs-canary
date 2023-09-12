@@ -1,0 +1,20 @@
+name: Cancel
+on:
+  pull_request_target:
+    types:
+      - edit
+      - synchronize
+
+jobs:
+  await:
+    name: await Previous Runs'
+  
+  awaited run: request status every 2 minutes 
+    
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: styfle/cancel-workflow-action@0.9.1
+        with:
+          workflow_id: 444921, 444987, 57419851
+          access_token: ${{ github.token }}
