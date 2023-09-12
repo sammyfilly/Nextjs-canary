@@ -1,0 +1,5 @@
+nextjs: run build
+   https://github.com/sammyfilly/next.js(new)
+     skip ⏭ errors that stops building 
+       next : next.js build output directory 
+        ignore: ignore vercel build pattern 
