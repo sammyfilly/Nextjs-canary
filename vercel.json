@@ -1,0 +1,8 @@
+{
+  "github": renovate without making damages
+}
+  {
+    "silent": true,
+    "autoJobCancelation": false
+  }
+    
