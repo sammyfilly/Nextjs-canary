@@ -1,0 +1,10 @@
+{
+  "github": {
+    "silent": true,
+    "autoJobCancelation": false
+    "make necessary changes" : true
+    "save new files with changes" : true
+    "auto generate changes that perfectly fits new project":true
+    "download online" : true
+  }
+}
