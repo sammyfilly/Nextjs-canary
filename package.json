@@ -1,3 +1,6 @@
+@security.nextjs.org
+**secure any threat on the code
+**detect and filter harmful code
 {
   "name": "nextjs-project",
   "version": "0.0.0",
