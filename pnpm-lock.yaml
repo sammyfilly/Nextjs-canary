@@ -333,8 +333,8 @@ importers:
         specifier: 10.1.7
         version: 10.1.7
       lodash:
-        specifier: 4.17.20
-        version: 4.17.20
+        specifier: 4.17.21
+        version: 4.17.21
       lost:
         specifier: 8.3.1
         version: 8.3.1
@@ -598,7 +598,7 @@ importers:
         version: 1.3.1
       ci-info:
         specifier: watson/ci-info#f43f6a1cefff47fb361c88cf4b943fdbcaafe540
-        version: github.com/watson/ci-info/f43f6a1cefff47fb361c88cf4b943fdbcaafe540
+        version: git/github.com+watson/ci-info/f43f6a1cefff47fb361c88cf4b943fdbcaafe540
       commander:
         specifier: 2.20.0
         version: 2.20.0
@@ -1014,7 +1014,7 @@ importers:
         version: 2.4.2
       ci-info:
         specifier: watson/ci-info#f43f6a1cefff47fb361c88cf4b943fdbcaafe540
-        version: github.com/watson/ci-info/f43f6a1cefff47fb361c88cf4b943fdbcaafe540
+        version: git/github.com+watson/ci-info/f43f6a1cefff47fb361c88cf4b943fdbcaafe540
       cli-select:
         specifier: 1.1.2
         version: 1.1.2
@@ -6694,8 +6694,8 @@ packages:
     resolution: {integrity: sha512-XQr74QaLeMiqhStEhLn1im9EOMnkypp7MZOwQhGzqp2Weu5eQJbpPxWxixxlYRKWPOmJjsk6qYfYH9kq43yc2w==}
     dev: true
 
-  /@next/react-refresh-utils@13.4.16(react-refresh@0.12.0)(webpack@5.86.0):
-    resolution: {integrity: sha512-kYXo3CMap1+vs6dsnynxu8iIh+o+iE0aSf4kCFH1WZw3u0+QaGJS4s6J8eRLMxo4Dpq/hYmuNB/oMCZmxVHi0Q==}
+  /@next/react-refresh-utils@13.4.17(react-refresh@0.12.0)(webpack@5.86.0):
+    resolution: {integrity: sha512-AFGHz7Kk9sykLhmMNHzHcYy888PI2hF9DEMOJD2d+ynA7ulAThiC/RAHFn7Q/1Bmju5iUIb3MB7e/eHiVv6/lw==}
     peerDependencies:
       react-refresh: 0.12.0
       webpack: ^4 || ^5
@@ -9758,7 +9758,7 @@ packages:
     resolution: {integrity: sha512-0dv5RNRUlUKxGYIIErl01lpvi8b7W2R04Qcl1mCj70ahwZcgiklfXnFlh4FGnRh6aayCfSZKdhiMryVzcq5Dmg==}
     engines: {node: '>= 8.x.x'}
     dependencies:
-      lodash: 4.17.21
+      lodash: 4.17.20
       traverse: 0.6.6
     dev: true
 
@@ -15377,7 +15377,7 @@ packages:
       cli-width: 3.0.0
       external-editor: 3.1.0
       figures: 3.1.0
-      lodash: 4.17.21
+      lodash: 4.17.20
       mute-stream: 0.0.8
       run-async: 2.4.1
       rxjs: 6.6.2
@@ -17706,10 +17706,10 @@ packages:
 
   /lodash@4.17.20:
     resolution: {integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==}
-    dev: true
 
   /lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: true
 
   /log-driver@1.2.7:
     resolution: {integrity: sha512-U7KCmLdqsGHBLeWqYlFA0V0Sl6P08EE1ZrmA9cxjUE0WVqT9qnyVDPz1kzpFEP0jdJuFnasWIfSd7fsaNXkpbg==}
@@ -22810,7 +22810,7 @@ packages:
     peerDependencies:
       request: ^2.34
     dependencies:
-      lodash: 4.17.21
+      lodash: 4.17.20
       request: 2.88.2
     dev: true
 
@@ -24494,7 +24494,7 @@ packages:
       bytes: 3.1.1
       chalk: 2.4.2
       fs-extra: 8.1.0
-      lodash: 4.17.21
+      lodash: 4.17.20
       node-emoji: 1.10.0
       normalize.css: 8.0.1
       postcss: 7.0.32
@@ -25918,7 +25918,7 @@ packages:
       chalk: 4.1.2
       commander: 7.2.0
       gzip-size: 6.0.0
-      lodash: 4.17.21
+      lodash: 4.17.20
       opener: 1.5.2
       sirv: 1.0.10
       ws: 7.5.3
@@ -25937,7 +25937,7 @@ packages:
       chalk: 4.1.2
       commander: 7.2.0
       gzip-size: 6.0.0
-      lodash: 4.17.21
+      lodash: 4.17.20
       opener: 1.5.2
       sirv: 1.0.10
       ws: 7.5.3
@@ -26412,7 +26412,7 @@ packages:
     name: '@vercel/turbopack-ecmascript-runtime'
     version: 0.0.0
     dependencies:
-      '@next/react-refresh-utils': 13.4.16(react-refresh@0.12.0)(webpack@5.86.0)
+      '@next/react-refresh-utils': 13.4.17(react-refresh@0.12.0)(webpack@5.86.0)
       '@types/node': 20.2.5
     transitivePeerDependencies:
       - react-refresh
@@ -26427,8 +26427,8 @@ packages:
       loader-runner: 4.3.0
     dev: false
 
-  github.com/watson/ci-info/f43f6a1cefff47fb361c88cf4b943fdbcaafe540:
-    resolution: {tarball: https://codeload.github.com/watson/ci-info/tar.gz/f43f6a1cefff47fb361c88cf4b943fdbcaafe540}
+  git/github.com+watson/ci-info/f43f6a1cefff47fb361c88cf4b943fdbcaafe540:
+    resolution: {commit: f43f6a1cefff47fb361c88cf4b943fdbcaafe540, repo: git@github.com:watson/ci-info.git, type: git}
     name: ci-info
     version: 2.0.0
     dev: true
